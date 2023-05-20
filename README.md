@@ -1,6 +1,8 @@
 # lungs-classification
 Lungs classification into 2 classes: healthy and pneumonia
 
+Used dataset: https://www.kaggle.com/datasets/tolgadincer/labeled-chest-xray-images
+
 The aim of this study is to develop and train a highly accurate machine learning model for the classification of lungs into two classes: pneumonia patients and healthy individuals.
 
 A Convolutional Neural Network (CNN) method is employed in this work for the classification of lung images into two classes: pneumonia patients and healthy individuals.
