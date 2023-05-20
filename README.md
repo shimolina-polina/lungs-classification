@@ -1,13 +1,19 @@
 # lungs-classification
 Lungs classification into 2 classes: healthy and pneumonia
 
-Dataset: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+The aim of this study is to develop and train a highly accurate machine learning model for the classification of lungs into two classes: pneumonia patients and healthy individuals.
 
-The project aims to classify lungs into healthy and diseased categories using machine learning techniques. The dataset consists of chest X-ray images, which will be preprocessed and fed into a deep learning model for classification. The goal of is to create a reliable and accurate system for early detection and diagnosis of lung diseases, ultimately improving patient outcomes.
+A Convolutional Neural Network (CNN) method is employed in this work for the classification of lung images into two classes: pneumonia patients and healthy individuals.
 
-Models used:
-1. CNN with three sets of convolutional and pooling layers, followed by two fully connected (Dense) layers. The input shape is a 3-channel image with dimensions of img_width by img_height. The output layer has one neuron with a sigmoid activation function, making it suitable for binary classification tasks.(lungs_classif.ipynb)
-2. Pretrained VGG16 with added layers corresponding to the task of lung classification. (lungs_classif.ipynb)
-3. Modified first model: Dropout layers, BatchNormalization layers, data augmentation, EarlyStopping. (final model.ipynb)
+A dataset comprising lung images of patients was used to train the models, which were divided into two categories: training and testing(80:20). The input images were resized to a consistent size and normalized.
 
-Accuracy of final model: 90,84%
+After training, the model was tested on a separate test dataset, and its accuracy was evaluated. Recall, Precision, and F1-score were selected as metrics since the data exhibits a small but acceptable class imbalance, and it is important to assess how accurately the model predicts the presence of pneumonia.
+
+Training the final model resulted in the following maximum performance metrics: Test loss: 0.1271, Test Accuracy: 0.9555, Test F1-score: 0.9686, Test recall: 0.9762, Test Precision: 0.9622.
+
+|File|Content|
+|-|-|
+|lungs-1.ipynb|Basic CNN model|
+|lungs-2.ipynb|Additional batch normalization layers added|
+|lungs-3.ipynb|Dropout layer added|
+|lungs-classif.ipynb|Pretrained VGG-16|
