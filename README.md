@@ -14,6 +14,6 @@ Training the final model resulted in the following maximum performance metrics: 
 |File|Content|
 |-|-|
 |[lungs-1.ipynb](https://github.com/shimolina-polina/lungs-classification/blob/main/lungs-1.ipynb "View file")|Basic CNN model|
-|[lungs-2.ipynb]()|Additional batch normalization layers added|
-|[lungs-3.ipynb]()|Dropout layer added|
-|[lungs-classif.ipynb]()|Pretrained VGG-16|
+|[lungs-2.ipynb](https://github.com/shimolina-polina/lungs-classification/blob/main/lungs-2.ipynb "View file")|Additional batch normalization layers added|
+|[lungs-3.ipynb](https://github.com/shimolina-polina/lungs-classification/blob/main/lungs-3.ipynb "View file")|Dropout layer added|
+|[lungs-classif.ipynb](https://github.com/shimolina-polina/lungs-classification/blob/main/lungs_classif.ipynb "View file")|Pretrained VGG-16 (another dataset)|
